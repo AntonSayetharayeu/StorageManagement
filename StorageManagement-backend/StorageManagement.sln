@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageManagement", "StorageManagement\StorageManagement.csproj", "{18B90825-4744-403C-8DB7-5AEFEC010570}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StorageManagement", "StorageManagement\StorageManagement.csproj", "{D898AD04-17CA-42F0-8A5D-EB930FE1F16B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL-StorageManagement", "BLL-StorageManagement\BLL-StorageManagement.csproj", "{16DB60B4-0E77-4263-B1C7-E6CD8B4E6CFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{5813147D-CBB7-4AD2-9612-C71F0261793C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{18B90825-4744-403C-8DB7-5AEFEC010570}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{18B90825-4744-403C-8DB7-5AEFEC010570}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{18B90825-4744-403C-8DB7-5AEFEC010570}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{18B90825-4744-403C-8DB7-5AEFEC010570}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D898AD04-17CA-42F0-8A5D-EB930FE1F16B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D898AD04-17CA-42F0-8A5D-EB930FE1F16B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D898AD04-17CA-42F0-8A5D-EB930FE1F16B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D898AD04-17CA-42F0-8A5D-EB930FE1F16B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16DB60B4-0E77-4263-B1C7-E6CD8B4E6CFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16DB60B4-0E77-4263-B1C7-E6CD8B4E6CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16DB60B4-0E77-4263-B1C7-E6CD8B4E6CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16DB60B4-0E77-4263-B1C7-E6CD8B4E6CFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5813147D-CBB7-4AD2-9612-C71F0261793C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5813147D-CBB7-4AD2-9612-C71F0261793C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5813147D-CBB7-4AD2-9612-C71F0261793C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5813147D-CBB7-4AD2-9612-C71F0261793C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
