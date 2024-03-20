@@ -1,3 +1,4 @@
+import { User } from './../models/user.model';
 import { Component } from '@angular/core';
 
 @Component({
@@ -8,5 +9,10 @@ import { Component } from '@angular/core';
   styleUrl: './main-page.component.css'
 })
 export class MainPageComponent {
+  user: User | null;
 
+  constructor() {
+    const storedUser = localStorage.getItem('currentUser');
+    this.user = storedUser ? JSON.parse(storedUser) : null;
+  }
 }
